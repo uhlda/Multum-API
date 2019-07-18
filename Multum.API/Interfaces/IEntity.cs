@@ -7,6 +7,11 @@ namespace Multum.API.Interfaces
 {
     public interface IEntity<T>
     {
-        T Id { get; set; }
+        /* 
+         * Uncomment when Automapper is added 
+         * so that each enity wil contain an ID
+         */
+
+        // T Id { get; set; }
     }
 }

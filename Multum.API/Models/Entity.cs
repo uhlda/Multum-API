@@ -12,6 +12,11 @@ namespace Multum.API.Models
 
     public abstract class Entity<T> : BaseEntity, IEntity<T>
     {
-        public virtual T Id { get; set; }
+        /* 
+         * Uncomment when Automapper is added so that 
+         * each enity wil contain an ID
+         */
+
+        // public virtual T Id { get; set; }
     }
 }
